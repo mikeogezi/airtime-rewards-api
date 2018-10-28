@@ -1,1 +1,1 @@
-# airtime-rewards-backend
+# Airtime Rewards Backend Server
