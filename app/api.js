@@ -5,12 +5,14 @@ let helpers = require('./helpers')
 let surveys = require('./surveys')
 
 const _API_KEY = '38f478a9501db883d47e251dbc0a7f5ad36e20cb1eabfe16566308d2b56eeb08'
+const _API_KEY_PRODUCTION = '5cfacfea81ec4e82ccfd39fa2f2e1b5d347615f2837ffa0a034f66a54323cb92'
 const _USERNAME = 'sandbox'
+const _USERNAME_PRODUCTION = 'airtime-rewards-demo'
 
 let AfricasTalking = require('africastalking')
 let options = {
-    apiKey: _API_KEY,
-    username: _USERNAME,
+    apiKey: _API_KEY_PRODUCTION,
+    username: _USERNAME_PRODUCTION,
 }
 let africasTalking = AfricasTalking(options)
 
