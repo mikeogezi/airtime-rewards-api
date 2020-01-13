@@ -2,14 +2,9 @@
 
 let path = require('path')
 let express = require('express')
-let stylus = require('stylus')
-let nib = require('nib')
 let bodyParser = require('body-parser')
-let favicon = require('serve-favicon')
-let multer = require('multer')
 let ms = require('ms')
 let compression = require('compression')
-let uuid = require('uuid')
 
 let routes = require('./app/routes')
 let api = require('./app/api')
